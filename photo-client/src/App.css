@@ -1,0 +1,39 @@
+/* ===== Background & Typography ===== */
+html, body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fefefe, #f8f9fa);
+  background-size: 200% 200%;
+  animation: softDrift 25s ease infinite;
+  color: #2d3436;
+}
+
+/* Subtle gradient drift */
+@keyframes softDrift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/*  Main Container (Below Navbar)  */
+.app-content {
+  min-height: calc(100vh - 60px);
+  max-width: 1200px; 
+  margin: 0 auto;     
+  padding: 2rem;     
+ 
+}
+
+/*  Page-Center Utility  */
+.page-center {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  FadeIn Animation  */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
