@@ -6,7 +6,7 @@ An image gallery application built with React and modern web technologies.
 ## 📦 Component Architecture
 
 ### Component Hierarchy
-
+````markdown
 ```mermaid
 graph TD
   A[App] --> B[AuthProvider]
