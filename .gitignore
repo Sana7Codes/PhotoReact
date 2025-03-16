@@ -1,5 +1,5 @@
 # Node modules
-node_modules/
+.node_modules/
 
 
 # Local environment files
@@ -8,3 +8,7 @@ node_modules/
 .env.*.local
 
 
+.DS_Store
+
+.package-lock.json
+.package.json
