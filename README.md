@@ -14,9 +14,7 @@ graph TD
   C --> F[RegisterPage]
   C --> E[LoginPage]
   C --> G[ProtectedRoute]
-  G --> H[GalleryPage]
- 
-  
+  G --> H[GalleryPage] 
 ```
 ````
 

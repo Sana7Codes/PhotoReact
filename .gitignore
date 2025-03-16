@@ -1,5 +1,5 @@
 # Node modules
-.node_modules/
+node_modules/
 
 
 # Local environment files
@@ -10,5 +10,5 @@
 
 .DS_Store
 
-.package-lock.json
-.package.json
+package-lock.json
+package.json
